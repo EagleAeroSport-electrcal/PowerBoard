@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ELE-101ELL2R2ME11D
+D Aluminum Electrolytic Capacitors - Radial Leaded 2.2uF 100V
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP RP240H-2448SRW_N-HC
+D DC DC CONVERTER 48V 178W
+F https://d311uvhi8lkjbj.cloudfront.net/media/Datasheet/pdf/.fyhEVjMX/.t07bf890e6cd320de18b9/Datasheet-224/RP240H-RW.pdf
+$ENDCMP
+#
+#End Doc Library

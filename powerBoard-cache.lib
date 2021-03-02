@@ -1,0 +1,108 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Screw_Terminal_01x02
+#
+DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_ELE-101ELL2R2ME11D
+#
+DEF SamacSys_Parts_ELE-101ELL2R2ME11D C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "SamacSys_Parts_ELE-101ELL2R2ME11D" 350 150 50 H V L CNN
+F2 "CAPPRD200W50D525H1250" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "Aluminum Electrolytic Capacitors - Radial Leaded 2.2uF 100V" 350 -150 50 H I L CNN "Description"
+F5 "12.5" 350 -250 50 H I L CNN "Height"
+F6 "661-E-101L2R2ME11D" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/United-Chemi-Con/ELE-101ELL2R2ME11D/?qs=GBLSl2AkirttDCShbD7QsA%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "United Chemi-Con" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ELE-101ELL2R2ME11D" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_RP240H-2448SRW_N-HC
+#
+DEF SamacSys_Parts_RP240H-2448SRW_N-HC PS 0 30 Y Y 1 F N
+F0 "PS" 1050 300 50 H V L CNN
+F1 "SamacSys_Parts_RP240H-2448SRW_N-HC" 1050 200 50 H V L CNN
+F2 "RP240H2448SRWNHC" 1050 100 50 H I L CNN
+F3 "https://d311uvhi8lkjbj.cloudfront.net/media/Datasheet/pdf/.fyhEVjMX/.t07bf890e6cd320de18b9/Datasheet-224/RP240H-RW.pdf" 1050 0 50 H I L CNN
+F4 "DC DC CONVERTER 48V 178W" 1050 -100 50 H I L CNN "Description"
+F5 "12.6" 1050 -200 50 H I L CNN "Height"
+F6 "RECOM Power" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F7 "RP240H-2448SRW/N-HC" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -700 200 -700 200 100 N
+X +VIN 1 0 -100 200 R 50 50 0 0 P
+X CTRL 2 0 -200 200 R 50 50 0 0 P
+X CASE 3 0 -300 200 R 50 50 0 0 P
+X -VIN 4 0 -400 200 R 50 50 0 0 P
+X -VOUT 5 1200 -500 200 L 50 50 0 0 P
+X -SENSE 6 1200 -400 200 L 50 50 0 0 P
+X TRIM 7 1200 -300 200 L 50 50 0 0 P
+X +SENSE 8 1200 -200 200 L 50 50 0 0 P
+X +VOUT 9 1200 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# powerBoardComp_ResettableFuse
+#
+DEF powerBoardComp_ResettableFuse U 0 40 Y Y 1 F N
+F0 "U" -200 200 50 H V C CNN
+F1 "powerBoardComp_ResettableFuse" -150 100 50 H V C CNN
+F2 "" -200 200 50 H I C CNN
+F3 "" -200 200 50 H I C CNN
+DRAW
+S -400 0 0 -200 0 1 0 N
+X P1 1 -500 -100 100 R 50 50 1 1 I
+X P2 2 100 -100 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
